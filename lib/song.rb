@@ -1,3 +1,30 @@
+# Song
+#   #new
+#     takes in three arguments: a name, artist and genre
+#   #name
+#     has a name
+#   #artist
+#     has an artist
+#   #genre
+#     has a genre
+#   class variables
+#     has a class variable, @@count
+#     has a class variable, @@artists, that contains all of the artists of existing songs
+#     has a class variable, @@genres, that contains all of the genres of existing songs
+#   .count
+#     is a class method that returns that number of songs created
+#   .artists
+#     is a class method that returns a unique array of artists of existing songs
+#   .genres
+#     is a class method that returns a unique array of genres of existing songs
+#   .genre_count
+#     is a class method that returns a hash of genres and the number of songs that have those genres
+#   .artist_count
+#     is a class method that returns a hash of artists and the number of songs that have those artists
+
+
+
+
 class Song
   attr_accessor :name, :artist, :genre #takes in three arguments: a name, artist and genre
 
